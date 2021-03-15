@@ -38,7 +38,7 @@ paths:
         description: "Type to filter by"
         required: false
         type: "string" 
-        enum: [MUSEUM,TOUR,UNKNOWN]
+        enum: [MUSEUM,TOUR,OBSERVATORY,UNKNOWN]
       - name: "_sort"
         in: "query"
         description: "Field to sort by"
